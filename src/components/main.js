@@ -2,11 +2,17 @@ import React from 'react';
 import './assets/css/style.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './assets/vendor/bootstrap/css/bootstrap.css'
+import './assets/vendor/bootstrap/css/bootstrap.css.map'
 import './assets/vendor/bootstrap/css/bootstrap-grid.css'
+import './assets/vendor/bootstrap/css/bootstrap-grid.css.map'
 import './assets/vendor/bootstrap/css/bootstrap-grid.min.css'
+import './assets/vendor/bootstrap/css/bootstrap-grid.min.css.map'
 import './assets/vendor/bootstrap/css/bootstrap-reboot.css'
 import './assets/vendor/bootstrap/css/bootstrap-reboot.min.css'
+import './assets/vendor/bootstrap/css/bootstrap-reboot.css.map'
+import './assets/vendor/bootstrap/css/bootstrap-reboot.min.css.map'
 import './assets/vendor/bootstrap/css/bootstrap.min.css'
+import './assets/vendor/bootstrap/css/bootstrap.min.css.map'
 import logo from './assets/img/Illustrations/undraw_true_love_cy8x.svg';
 import logo1 from './assets/img/Illustrations/Icons/innovation.svg';
 import logo2 from './assets/img/Illustrations/Icons/user centred.svg';
@@ -154,6 +160,7 @@ function Main() {
               <div class="form-row">
                 
                 <div className="form-group col-md-6">
+
                   <label for="name">Your Name</label>
                   <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4"
                     data-msg="Please enter at least 4 chars" required />

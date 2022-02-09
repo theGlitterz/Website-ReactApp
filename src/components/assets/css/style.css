@@ -1416,3 +1416,8 @@ section {
   justify-content: center;
   align-items: center;
 }
+label{
+  text-align: left;
+  align-items: left;
+  justify-content: left;
+}
